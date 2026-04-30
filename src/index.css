@@ -3,6 +3,7 @@
 @theme {
   /* This automatically creates the 'font-hind' utility class */
   --font-Ovo: "Ovo", serif;
+  --font-playfair: "Playfair Display", serif;
 }
 
 /* Spin for side menu cross icon */
@@ -13,4 +14,11 @@
   100% {
     transform: rotate(360deg);
   }
+}
+/* FOnt color here */
+.Font-color1 {
+  color: rgb(34, 33, 33);
+}
+.Font-color2 {
+  color: rgb(61, 61, 61);
 }
