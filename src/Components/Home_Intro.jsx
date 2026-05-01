@@ -26,7 +26,7 @@ const Home_Intro = () => {
       </div>
 
       {/* Web & Designer */}
-      <div className="font-playfai text-[2rem] md:text-6xl lg:text-6xl leading-tight">
+      <div className="font-playfair text-[2rem] md:text-6xl lg:text-6xl leading-tight">
         Web Developer &
         <br className="hidden md:block lg:hidden" /> UI/UX
         <br className="hidden lg:block" /> Designer
