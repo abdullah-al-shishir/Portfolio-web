@@ -4,7 +4,10 @@ import { BsDownload } from "react-icons/bs";
 
 const Home_Intro = () => {
   return (
-    <div className="max-w-8xl r w-3/4 md:w-full mx-auto mt-5 md:mt-2 flex flex-col items-center text-center justify-center gap-4">
+    <div
+      id="top"
+      className="mb-30 max-w-8xl r w-3/4 md:w-full mx-auto mt-5 md:mt-2 flex flex-col items-center text-center justify-center gap-4"
+    >
       {/* Image Container */}
       <div className="flex justify-center">
         <img
@@ -28,10 +31,12 @@ const Home_Intro = () => {
         <br className="hidden lg:block" /> Designer
       </div>
       {/* Title decsription */}
-      <div className="font-Ovo Font-color2 ml-5 mr-5 ">
-        Creating innovative and efficient digital solutions with a focus on
-        front-end development and
-        <br className="hidden md:block" /> user experience.
+      <div className="font-Ovo Font-color2 ml-5 mr-5 md:text-[17px] leading-loose">
+        <span>
+          Creating innovative and efficient digital solutions with a focus on
+          front-end development and
+          <br className="hidden md:block" /> user experience.
+        </span>
       </div>
       {/* Contact & resume button */}
       <div className="flex flex-col md:flex-row items-center gap-4 mt-9">
