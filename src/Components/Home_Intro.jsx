@@ -6,7 +6,7 @@ const Home_Intro = () => {
   return (
     <div
       id="top"
-      className="min-h-screen pt-16 max-w-8xl w-3/4 md:w-full mx-auto flex flex-col items-center text-center justify-center gap-4"
+      className="min-h-screen pt-12 max-w-8xl w-3/4 md:w-full mx-auto flex flex-col items-center text-center justify-center gap-4"
     >
       {/* Image Container */}
       <div className="flex justify-center">
