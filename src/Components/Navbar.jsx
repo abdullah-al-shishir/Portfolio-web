@@ -94,22 +94,27 @@ const Navbar = () => {
         {/* Navbar Icons & Contact Button */}
         <div className="col-span-8 md:col-span-2 lg:col-span-3 flex items-center justify-end gap-4">
           <CiDark className="text-3xl cursor-pointer text-gray-600 hover:text-black transition-colors" />
-
-          {/* Contact Button (Desktop) */}
           <a
             href="#contact"
             className="hidden lg:flex items-center gap-2 px-8 py-3 border border-gray-500 rounded-full font-Ovo hover:bg-gray-900 hover:text-white transition-all duration-300"
           >
             Contact <GoArrowUpRight className="text-xl" />
           </a>
-
-          {/* Mobile Menu Toggle */}
           <CiMenuFries
             className="text-2xl cursor-pointer md:hidden"
             strokeWidth={1.5}
             onClick={openMenu}
           />
         </div>
+
+        {/* --- BACKDROP OVERLAY --- */}
+        {/* This div covers the rest of the page when menu is open */}
+        {isOpen && (
+          <div
+            className="fixed inset-0 h-screen w-screen bg-black/10 md:hidden z-40"
+            onClick={closeMenu}
+          ></div>
+        )}
 
         {/* Mobile Side Menu Overlay */}
         <ul
