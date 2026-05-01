@@ -30,7 +30,7 @@ const About_me = () => {
         <div className="flex flex-col gap-6 lg:mt-19">
           {/* Description */}
           <div>
-            <p className="font-Ovo Font-color1 text-[17px] leading-loose">
+            <p className="font-Ovo Font-color2 text-[15px] sm:text-[17px] leading-loose">
               I'm a passionate Web Developer and UI/UX Designer skilled in both
               front-end and back-end development. With expertise in React,
               Next.js, HTML, CSS, and JavaScript, I create user-centered,
