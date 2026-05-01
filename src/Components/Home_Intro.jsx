@@ -6,7 +6,7 @@ const Home_Intro = () => {
   return (
     <div
       id="top"
-      className="mb-30 max-w-8xl r w-3/4 md:w-full mx-auto mt-5 md:mt-2 flex flex-col items-center text-center justify-center gap-4"
+      className="min-h-screen pt-16 max-w-8xl w-3/4 md:w-full mx-auto flex flex-col items-center text-center justify-center gap-4"
     >
       {/* Image Container */}
       <div className="flex justify-center">
@@ -24,13 +24,15 @@ const Home_Intro = () => {
           Hi! I'm Abdullah Al Shishir 👋🏻
         </span>
       </div>
+
       {/* Web & Designer */}
       <div className="font-playfai text-[2rem] md:text-6xl lg:text-6xl leading-tight">
         Web Developer &
         <br className="hidden md:block lg:hidden" /> UI/UX
         <br className="hidden lg:block" /> Designer
       </div>
-      {/* Title decsription */}
+
+      {/* Title description */}
       <div className="font-Ovo Font-color2 ml-5 mr-5 md:text-[17px] leading-loose">
         <span>
           Creating innovative and efficient digital solutions with a focus on
@@ -38,12 +40,17 @@ const Home_Intro = () => {
           <br className="hidden md:block" /> user experience.
         </span>
       </div>
+
       {/* Contact & resume button */}
       <div className="flex flex-col md:flex-row items-center gap-4 mt-9">
         {/* Contact btn */}
-        <button className="font-Ovo flex items-center gap-2 px-10 py-4 text-[17px] bg-black text-gray-200 rounded-full font-medium hover:bg-gray-900 hover:text-gray-50 transition-colors duration-200 cursor-pointer">
+        <a
+          href="#contact"
+          className="font-Ovo flex items-center gap-2 px-10 py-4 text-[17px] bg-black text-gray-200 rounded-full font-medium hover:bg-gray-900 hover:text-gray-50 transition-colors duration-200 cursor-pointer"
+        >
           contact me <FaArrowRight />
-        </button>
+        </a>
+
         {/* Resume btn */}
         <button className="font-Ovo Font-color1 flex items-center gap-2 px-10 py-4 text-[17px] bg-white text-black border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200 cursor-pointer">
           my resume <BsDownload />

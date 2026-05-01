@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  /* scroll-padding-top: 80px; */
+}
+
 @theme {
   /* This automatically creates the 'font-hind' utility class */
   --font-Ovo: "Ovo", serif;
