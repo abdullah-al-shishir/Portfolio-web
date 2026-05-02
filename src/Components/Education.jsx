@@ -55,7 +55,7 @@ const Education = () => {
       <div className="max-w-5xl mx-auto">
         <h4 className="text-center mb-2 text-lg font-Ovo">Education</h4>
         <h2 className="text-center mb-4 text-4xl font-Ovo">My Education</h2>
-        <p className="font-Ovo text-gray-600 mb-10">
+        <p className="font-Ovo text-stone-500 mb-10">
           Here is a quick summary of my educational background
         </p>
 

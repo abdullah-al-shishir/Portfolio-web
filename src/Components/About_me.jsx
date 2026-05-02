@@ -73,7 +73,9 @@ const About_me = () => {
           <span className="text-md tracking-widest text-gray-500">
             Introduction
           </span>
-          <h2 className="font-Ovo text-5xl mt-3 mb-6">About Me</h2>
+          <h2 className="text-center mb-4 text-5xl font-Ovo text-stone-900 font-normal leading-tight">
+            About Me
+          </h2>
         </div>
 
         {/* Photo & details Container */}

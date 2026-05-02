@@ -92,7 +92,7 @@ export default function ExperienceSection() {
         <div className="text-center mb-12">
           <h4 className="mb-2 text-lg font-Ovo">Experience</h4>
           <h2 className="mb-4 text-4xl font-Ovo">My Experience</h2>
-          <p className="font-Ovo text-gray-600 text-md">
+          <p className="font-Ovo text-stone-500 text-md">
             Here is a quick summary of my most recent experiences
           </p>
         </div>
