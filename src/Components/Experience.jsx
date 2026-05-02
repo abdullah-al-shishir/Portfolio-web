@@ -27,7 +27,7 @@ const ExperienceCard = ({
                 </h3>
               </div>
             </div>
-            <span className="font-Ovo px-4 py-1.5 text-gray-500 text-sm mt-1">
+            <span className="font-Ovo px-4 py-1.5 text-gray-500 text-sm mt-1 whitespace-nowrap ">
               {duration}
             </span>
           </div>
@@ -76,7 +76,7 @@ export default function ExperienceSection() {
             transition: background-color 0.4s ease; 
         }
         .hover-trigger:hover .card-border { 
-            transform: scale(1.015); 
+            transform: scale(1.01); 
             transition: all 0.6s ease;
             box-shadow: 0 20px 40px -15px rgba(0,0,0,0.1);
         }

@@ -67,6 +67,14 @@ const Navbar = () => {
             <li>
               <a
                 className="font-Ovo hover:text-red-500 transition-colors"
+                href="#education"
+              >
+                Education
+              </a>
+            </li>
+            <li>
+              <a
+                className="font-Ovo hover:text-red-500 transition-colors"
                 href="#services"
               >
                 Services
@@ -151,6 +159,11 @@ const Navbar = () => {
           <li onClick={closeMenu}>
             <a className="font-Ovo text-lg" href="#experience">
               Experience
+            </a>
+          </li>
+          <li onClick={closeMenu}>
+            <a className="font-Ovo text-lg" href="#education">
+              Education
             </a>
           </li>
           <li onClick={closeMenu}>
