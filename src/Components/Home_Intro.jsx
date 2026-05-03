@@ -17,9 +17,8 @@ const Home_Intro = () => {
         />
       </div>
 
-      {/* Description */}
       {/* Name */}
-      <div className="text-xl md:text-2xl font-medium ">
+      <div className="text-xl md:text-2xl font-medium">
         <span className="font-Ovo Font-color1">
           Hi! I'm Abdullah Al Shishir 👋🏻
         </span>
@@ -52,9 +51,13 @@ const Home_Intro = () => {
         </a>
 
         {/* Resume btn */}
-        <button className="font-Ovo Font-color1 flex items-center gap-2 px-10 py-4 text-[17px] bg-white text-black border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200 cursor-pointer">
+        <a
+          href="/MyResume.pdf"
+          download="Abdullah_Al_Shishir_Resume.pdf"
+          className="font-Ovo Font-color1 flex items-center gap-2 px-10 py-4 text-[17px] bg-white text-black border border-gray-300 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors duration-200 cursor-pointer"
+        >
           my resume <BsDownload />
-        </button>
+        </a>
       </div>
     </div>
   );

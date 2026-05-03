@@ -42,7 +42,7 @@ export const workMock = [
     type: "Web Site",
   },
   {
-    name: "Car Rental",
+    name: "Car Rental Service",
     tagline: "Ride on Your Terms",
     image: "/Mockup/CarMock.png",
     type: "Web Site",

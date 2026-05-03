@@ -85,7 +85,7 @@ const ServiceCard = ({ title, desc, icon }) => (
 // Adding cards with intro
 const Services = () => {
   return (
-    <div id="services" className="py-20 px-[12%] text-center">
+    <div id="services" className="py-22 px-[12%] text-center">
       <div className="max-w-7xl mx-auto">
         <h4 className="text-center mb-2 text-lg text-stone-700 tracking-wide font-Ovo">
           What I offer

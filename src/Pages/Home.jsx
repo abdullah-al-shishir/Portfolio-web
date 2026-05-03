@@ -7,6 +7,8 @@ import Experience from "../Components/Experience";
 import Education from "../Components/Education";
 import Services from "../Components/Services";
 import My_Work from "../Components/My_Work";
+import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Education />
       <Services />
       <My_Work />
+      <Contact />
+      <Footer />
     </div>
   );
 };

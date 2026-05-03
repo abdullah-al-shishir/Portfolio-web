@@ -29,7 +29,7 @@ const Education = () => {
   ];
 
   return (
-    <div id="education" className="py-20 px-[12%] text-center bg-white">
+    <div id="education" className="py-22 px-[12%] text-center bg-white">
       <style>{`
         .card-border { 
           background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%); 

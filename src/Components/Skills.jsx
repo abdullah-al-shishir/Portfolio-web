@@ -3,7 +3,7 @@ import { skills } from "../assets/assets";
 
 const Skills = () => {
   return (
-    <div id="skills" className="py-20 px-[12%] text-center bg-white">
+    <div id="skills" className="py-22 px-[12%] text-center bg-white">
       <div className="max-w-5xl mx-auto">
         <h4 className="text-center mb-2 text-lg font-Ovo">Skills</h4>
         <h2 className="text-center mb-4 text-5xl font-Ovo">Tools I Use</h2>

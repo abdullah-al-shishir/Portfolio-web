@@ -41,6 +41,7 @@ const ExperienceCard = ({
   );
 };
 
+// Importing images/icon from publice folder
 // Existing Rocket Icon
 const RocketIcon = () => (
   <img
@@ -49,7 +50,7 @@ const RocketIcon = () => (
     className="w-full h-full object-cover rounded-full"
   />
 );
-// New Book Icon for English Olympiad
+// Book Icon for English Olympiad
 const EnglishIcon = () => (
   <img
     src="/english.jpg"
@@ -57,11 +58,19 @@ const EnglishIcon = () => (
     className="w-full h-full object-cover rounded-full"
   />
 );
+// Coding Icon for Volunteer
+const CodingIcon = () => (
+  <img
+    src="/coding.png"
+    alt="Coding Icon"
+    className="w-full h-full object-cover rounded-full"
+  />
+);
 
 // 2. Main Section
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="py-20 px-[12%] bg-white">
+    <section id="experience" className="py-22 px-[12%] bg-white">
       <style>{`
         .display-font { font-family: 'DM Serif Display', serif; }
         .card-border { 
@@ -97,17 +106,27 @@ export default function ExperienceSection() {
           </p>
         </div>
 
-        {/* Cards 1: Research Assistant */}
+        {/* Card 1: Volunteer */}
+        <div className="flex flex-col items-center gap-8 mb-6 cursor-pointer">
+          <ExperienceCard
+            title="Volunteer / Contributor"
+            organization="University Department Web Project — cupcp.com"
+            duration="Apr 2025 - Sept 2025"
+            icon={CodingIcon}
+            description="As a volunteer Frontend Developer and UI Designer for cupcp.com, I helped design the user interface, develop responsive frontend components, and analyze the overall web structure for my university department's official website."
+          />
+        </div>
+        {/* Cards 2: Research Assistant */}
         <div className="flex flex-col items-center gap-8 mb-6 cursor-pointer">
           <ExperienceCard
             title="Research Assistant"
             organization="Research Laboratory for Computational Electromagnetics (RLCEM)"
-            duration="Mar 2025 - Dec 2025"
+            duration="Mar 2025 - Nov 2025"
             description="As a Research Assistant at RLCEM, I developed computational models to simulate electromagnetic phenomena using Python and MATLAB. I focused on optimizing numerical algorithms for wave propagation and data analysis, bridging theoretical physics with programming to support specialized research initiatives at the University of Chittagong."
           />
         </div>
 
-        {/* Cards 2: English Olympiad*/}
+        {/* Cards 3: English Olympiad*/}
         <div className="flex flex-col items-center gap-8 mb-6 cursor-pointer">
           <ExperienceCard
             title="Campus Ambassador"
@@ -117,7 +136,7 @@ export default function ExperienceSection() {
             description="As a Campus Ambassador for the English Olympiad, I led the Gazipur team, successfully recruiting over 250 participants for the Season 2 event. I played a key role in organizing the Gazipur District Round, ensuring its smooth execution and fostering increased participation."
           />
         </div>
-        {/* Card 3: more to add here..... */}
+        {/* Card 4: more to add here..... */}
       </div>
     </section>
   );
