@@ -1,3 +1,4 @@
+// Skills Icons
 export const skills = [
   // Row 1
   { name: "HTML", icon: "/Skills_Icons/html5.svg" },
@@ -24,4 +25,32 @@ export const skills = [
   { name: "C++", icon: "/Skills_Icons/c++.png" },
   { name: "Python", icon: "/Skills_Icons/python.svg" },
   { name: "WordPress", icon: "/Skills_Icons/wordpress.svg" },
+];
+
+// Work Mockup images
+export const workMock = [
+  {
+    name: "Virtual Bookshelf",
+    tagline: "Manage your Bookshelf",
+    image: "/Mockup/BookMock.png",
+    type: "Web Application",
+  },
+  {
+    name: "রক্ত লাগবে",
+    tagline: "Donate Blood, Save Lives",
+    image: "/Mockup/RoktoMock.png",
+    type: "Web Site",
+  },
+  {
+    name: "Car Rental",
+    tagline: "Ride on Your Terms",
+    image: "/Mockup/CarMock.png",
+    type: "Web Site",
+  },
+  {
+    name: "Bug Issue Finder",
+    tagline: "Squash Bugs Instantly",
+    image: "/Mockup/BugMock.png",
+    type: "Web Application",
+  },
 ];
